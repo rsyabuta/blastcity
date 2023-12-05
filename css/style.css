@@ -1,0 +1,41 @@
+
+body {
+    background-color: rgb(34, 9, 44);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header {
+    max-width: 900px;
+    margin-bottom: 20px;
+}
+
+#header img{
+    width: 100%;
+    height: auto;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+}
+
+#links img{
+    width: 100%;
+    height: auto;
+}
+
+.link {
+    margin-bottom: 20px;
+}
+
+#twitch {
+    width: 600px;
+}
